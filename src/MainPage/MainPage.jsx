@@ -5,7 +5,9 @@ class MainPage extends Component{
     render(){
         return(
             <div>
-                <h1>Test</h1> 
+               <section className="logo">
+                    <h1>Logo Here</h1>
+                </section>
             </div>
         )
     }

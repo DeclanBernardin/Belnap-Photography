@@ -1,0 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Staatliches:regular);
+@import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One:regular);
+body{
+font-family: Pathway Gothic One;
+margin: 0px
+}
+
+.logo{
+    text-align: center;
+    padding: 250px;
+    background-color: Grey;
+}
