@@ -6,7 +6,10 @@ class MainPage extends Component{
         return(
             <div>
                <section className="logo">
-                    <h1>Logo Here</h1>
+                    <h1 style={{color: 'white'}}>Logo Here</h1>
+                </section>
+                <section>
+                    
                 </section>
             </div>
         )

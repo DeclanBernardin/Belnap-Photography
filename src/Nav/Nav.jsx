@@ -3,7 +3,6 @@ import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import { connect } from "react-redux";
 import { withRouter } from 'react-router-dom';
-import AppBar from '@material-ui/core/AppBar';
 import Paper from '@material-ui/core/Paper';
 class Nav extends Component{
 
