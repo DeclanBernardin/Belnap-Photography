@@ -1,8 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Staatliches:regular);
 @import url(https://fonts.googleapis.com/css?family=Pathway+Gothic+One:regular);
-
+@import url(https://fonts.googleapis.com/css?family=Assistant:200,300,regular,600,700,800);
 body{
-font-family: Pathway Gothic One;
+font-family: Assistant;
 margin: 0px
 }
 
