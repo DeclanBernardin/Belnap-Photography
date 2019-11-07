@@ -27,10 +27,10 @@ class MainPage extends Component{
         return(
             <div >
                <section className="logo">
-                <img src={'https://raw.githubusercontent.com/DeclanBernardin/Belnap-Photography/master/car%20pics/belnapphotographylogofinalWrevised2019.png'} />
+                
                 </section>
                 <section className={classes.root}>
-                <GridList cellHeight={600}  className={classes.gridList} cols={2.3}>
+                <GridList cellHeight={1050}  className={classes.gridList} cols={1.1}>
           <GridListTile >
             <img src={'https://raw.githubusercontent.com/DeclanBernardin/Belnap-Photography/master/car%20pics/c300_0001.png'}  />
           </GridListTile>
@@ -51,9 +51,9 @@ class MainPage extends Component{
           </GridListTile>
       </GridList>
                 </section >
-                <section style={{backgroundColor: 'grey'}}>
+                <section style={{backgroundColor: 'Black', textAlign: 'center'}}>
                   <a href="https://www.instagram.com/belnapphotography"><img src="https://raw.githubusercontent.com/DeclanBernardin/Belnap-Photography/master/car%20pics/instagram-logo-png.png" style={{height: '100px'}}/> </a>
-                  <h1>belnapphotography@gmail.com</h1>
+                  <h1 style={{ fontWeight: '100', color: 'white', margin: '10px', paddingBottom: '10px'}}>belnapphotography@gmail.com</h1>
                 </section>
             </div>
         )

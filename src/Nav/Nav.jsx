@@ -19,10 +19,7 @@ class Nav extends Component{
         this.props.history.push('/About')
     }
 
-    handleContact = () => {
-        this.props.history.push('/Contact')
-    }
-
+ 
     render(){
         return(
             <div>
@@ -34,7 +31,6 @@ class Nav extends Component{
                     <Tab label="home" onClick={this.handleHome}/>
                     <Tab label="Gallery" onClick={this.handleGallery}/>
                     <Tab label="About" onClick={this.handleAbout}/>
-                    <Tab label="Contact" onClick={this.handleContact}/>
                 </Tabs>
                 <div style={{ }}>
                 <h1 style={{paddingLeft: '10px', fontWeight: '100', paddingTop: '10px', marginBottom: '0px' }}>B E L N A P</h1>
