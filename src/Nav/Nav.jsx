@@ -33,8 +33,7 @@ class Nav extends Component{
                     <Tab label="About" onClick={this.handleAbout}/>
                 </Tabs>
                 <div style={{ }}>
-                <h1 style={{paddingLeft: '10px', fontWeight: '100', paddingTop: '10px', marginBottom: '0px' }}>B E L N A P</h1>
-                <h1 style={{paddingLeft: '10px', fontWeight: '100', paddingBottom: '10px'}}>P H O T O G R A P H Y</h1>
+                        <h1 style={{ paddingLeft: '10px', fontWeight: '100', paddingTop: '10px', marginBottom: '0px' }}>B E L N A P &nbsp; P H O T O G R A P H Y</h1>
                 </div>
 
                 </Paper>

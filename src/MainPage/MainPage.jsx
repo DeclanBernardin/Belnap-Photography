@@ -2,7 +2,6 @@ import React, {Component} from "react";
 import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import { withStyles } from '@material-ui/core/styles';
-import InstagramIcon from '@material-ui/icons/Instagram';
 
 const styles = theme => ({
     root: {
