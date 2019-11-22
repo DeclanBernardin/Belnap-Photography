@@ -3,7 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
+import logger from 'redux-logger';
+import { takeEvery, put } from 'redux-saga/effects';
+import axios from 'axios';
+
+
 
 const store = createStore(
     applyMiddleware(),
